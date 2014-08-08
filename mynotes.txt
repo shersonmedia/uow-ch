@@ -1,11 +1,44 @@
 Notes relating to the research into YT Documentries up loaded from NZ
+=====
+https://developers.google.com/youtube/2.0/developers_guide_dotnet
+https://developers.google.com/youtube/2.0/developers_guide_protocol
+https://developers.google.com/youtube/v3/?hl=pl
+
+Created a project in the Google Developers Console
+Project: Research Youtube Documentary
+uow-ch-research
+
+Instructions
+https://developers.google.com/youtube/v3/
+
+Getting started
+
+Prerequisites
+
+Register your application with Google so that it can submit API requests.
+Familiarize yourself with the core concepts of the JSON (JavaScript Object Notation) data format. For more information, see json.org.
+Building your application
+
+Read the Getting Started with the YouTube Data API guide, which explains basic YouTube concepts and provides an overview of supported API operations.
+Select a client library to simplify your API implementation.
+If your application will use any API methods that require user authorization, read the authentication guide to learn how to implement OAuth 2.0 authorization.
+Check the API reference guide for definitions of the resources that the API interacts with, the specific properties that each resource contains, and the methods that the API supports for each resource.
+
+============
+Some APIs allow free usage up to a courtesy usage limit, 
+
+============
+
+https://stackoverflow.com/questions/12540609/youtube-api-find-videos-by-country-and-keyword 3pm 7/8
+====================================================
+Using YouTube API to list documentary videos uploaded from NZ
+====================================================
+I am helping a researcher wanting to list YouTube videos uploaded from a specific country/region that are a particular genre. In particular, documentary videos uploaded by people from New Zealand. My expectation based on what I have found in Stack Overflow is that the region is more about access to the video rather than the region it was uploaded from but if someone knows a workaround that could return that list via the api that would be great.
 
 =====
 Stack Overflow Question 1
 
 http://stackoverflow.com/questions/25173399/using-youtube-api-to-list-documentary-videos-uploaded-from-nz/25184264#25184264
-
-I am helping a researcher wanting to list YouTube videos uploaded from a specific country/region that are a particular genre. In particular, documentary videos uploaded by people from New Zealand. My expectation based on what I have found in Stack Overflow is that the region is more about access to the video rather than the region it was uploaded from but if someone knows a workaround that could return that list via the api that would be great.
 
 Stack Overflow Answer 1-1:
 Try Something like this:
